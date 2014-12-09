@@ -1,0 +1,37 @@
+{
+  "name": "emobile-free-webtext",
+  "description": "Node.js application to send free webtexts using their emobile account.",
+  "keywords": [
+    "emobile",
+    "sms",
+    "webtext"
+  ],
+  "author": "Alan Moran",
+  "license": "MIT",
+  "version": "0.0.0",
+  "preferGlobal": true,
+
+  "main": "index.js",
+  "directories": {
+    "bin": "./bin"
+  },
+  "bin": {
+    "emobile": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alanmoran/emobile-free-webtext.git"
+  },
+  "dependencies" : {
+    "request": "*",
+    "async": "*",
+    "commander":"*"
+  },
+  "bugs": {
+    "url": "https://github.com/alanmoran/emobile-free-webtext/issues"
+  },
+  "homepage": "https://github.com/alanmoran/emobile-free-webtext"
+}
